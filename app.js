@@ -25,7 +25,7 @@ function handleOtp(e) {
     input.value = value ? value[0] : "";
 
     let fieldIndex = input.dataset.index;
-    if (value.length > 0 && fieldIndex < input.length - 1) {
+    if (value.length > 0 && fieldIndex < inputs.length - 1) {
         input.nextElementSibling.focus();
     }
 
