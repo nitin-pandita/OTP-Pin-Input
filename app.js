@@ -49,4 +49,5 @@ function submit () {
         input.classList.add("disable");
     });
     console.log(otp);
+    
 }
